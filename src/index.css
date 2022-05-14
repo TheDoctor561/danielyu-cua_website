@@ -10,11 +10,11 @@ html {
 /* Taking helvetica and making it the main font for the font-family using sans-serif as a fallback*/
 body {
   margin: 0;
-  font-family: 300 11px/1.4 'Helvetica Neue', 'sans-serif'; 
-  color: #444; 
-  background: #022c43; 
-  overflow: hidden; 
-  display: block; 
+  font: 300 11px/1.4 'Helvetica Neue', sans-serif;
+  color: #444;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #2e2d2d;
+  overflow: hidden;
+  display: block;
 }

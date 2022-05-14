@@ -1,0 +1,18 @@
+700 x 800
+	W: 580 
+	H: 780
+	X: 91
+	Y: 10
+
+Single Letter: Blue
+	W: 540 
+	H: 732
+	x: 131 
+	y: 10
+
+Single Letter: Pink
+	W: 540 
+	H: 732
+	x: 91 
+	y: 58
+

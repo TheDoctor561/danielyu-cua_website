@@ -1,0 +1,28 @@
+1. Change primary colors to be something more suitable 
+	perhaps a pink blue and dark grey color scheme with white outlines 
+	pinkish red: #e92477
+	muted blue: #0e4e97
+	grey: #444444
+ 	white: #efeeee
+	
+	Font for D is Lucida Sans Demibold Roman 818.78 pt font sharp
+	Font for subtitle is myriad pro 12 point font bold sharp 
+	
+	Stroke for outlined svg should be 4px wide, #000, inner stroke
+
+2. Change the letters that are in the icons 
+
+3. inside index.css change the color and background to something more fitting
+
+4. Change sidebar icons try to import faIcons to something more unique
+
+5. Under index.css Remember to change "background" under body to something unique
+
+6. Home/Logo/index.js there is a problem loading the animations for gsap useEffect.fromTo 
+	when dealing with the start animations of the outline
+7. Site does not work for mobile and needs to be made more efficient with drop down menus 
+	and media changes 
+	
+	Go to the pukalani villas website as a reference to see how to deal with said changes
+
+
