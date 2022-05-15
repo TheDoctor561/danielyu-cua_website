@@ -62,7 +62,7 @@ const Home = () => {
             idx={22}
           />
         </h1>
-        <h2>FullStack Engineer / Data Analyst / Designer </h2>
+        <h2>FullStack Engineer / Data Analyst / IT Solutions / Designer </h2>
         <Link to="/contact" className="flat-button">
           {' '}
           CONTACT ME
