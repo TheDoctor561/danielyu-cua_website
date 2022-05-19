@@ -1,10 +1,13 @@
+/*
 import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
+import { useRef } from 'react'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 
-const Analytics = () => {
+const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
+  const form = useRef()
   useEffect(() => {
     let timer1 = setTimeout(() => setLetterClass('text-animate-hover'), 4000)
     return () => {
@@ -19,7 +22,7 @@ const Analytics = () => {
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={['A','n','a','l','y','t','i','c','s']}
+              strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e']}
               idx={15}
             />
           </h1>
@@ -30,4 +33,5 @@ const Analytics = () => {
   )
 }
 
-export default Analytics
+export default Contact
+*/
