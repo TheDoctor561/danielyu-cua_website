@@ -36,8 +36,10 @@ const About = () => {
             />
           </h1>
           <p>
-            Hi, my name is Daniel. I'm a full stack engineer with a knowlege base in IT solutions, Data Analytics, 
-            and Design. 
+            Hi, my name is Daniel I'm a full stack engineer with a knowlege base in IT solutions, Data Analytics, 
+            and Design. I graduated from the University of Maryland College Park with a B.S. in Computer Science, 
+            and am pursuing a M.S. at the University of Maryland Global Campus and am scheduled to graduate in 
+            December of 2023. 
           </p>
           <p align="LEFT">
             I focus on the bigger picture and work to understand the full scope of 
@@ -45,7 +47,7 @@ const About = () => {
           </p>
           <p>
             I am consitently improving my skill set day to day and work hard to keep myself updated on the 
-            latest technologies. 
+            latest technologies. I've spent the past 5 years of my College Career devoloping high value skills that 
           </p>
 
 
@@ -79,7 +81,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <Loader type="pacman" />
+      <Loader type="ball-scale-ripple-multiple" />
     </>
   )
 }

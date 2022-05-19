@@ -107,6 +107,12 @@
         content: 'CONTACT';
       }
     }
+
+    a.analytics-link {
+      &:after {
+        content: 'ANALYT';
+      }
+    }
     
     a.active {
       svg {

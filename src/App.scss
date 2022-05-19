@@ -2,7 +2,7 @@
 $primary-color: #42ddf5;
 
 @import 'animate.css';
-@import '~loaders.css/src/animations/pacman.scss';
+@import '~loaders.css/src/animations/ball-scale-ripple-multiple.scss';
 
 @font-face {
   font-family: 'Helvetica Neue';
@@ -36,6 +36,7 @@ textarea {
   display: none;
 }
 
+// Controls the loader for the animations 
 .loader-active {
   display: block;
   position: absolute;

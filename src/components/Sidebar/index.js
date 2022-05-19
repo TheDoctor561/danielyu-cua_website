@@ -10,7 +10,7 @@ import {
   faYoutube
 } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faHome, faUser, faChartSimple } from '@fortawesome/free-solid-svg-icons'
 
 // Dev Notes <NavLink> Controls the individual links that go to various pages
 // copy for more sections as they become available to you.
@@ -63,6 +63,14 @@ const Sidebar = () => {
         >
           <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
         </NavLink>
+
+        <NavLink 
+          activeclassname="active" 
+          className="analytics-link" 
+          to="/analytics"
+        >
+          <FontAwesomeIcon icon={faChartSimple} color="#4d4d4e" />
+        </NavLink>
       </nav>
 
       <ul>
@@ -84,6 +92,8 @@ const Sidebar = () => {
             <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
           </a>
         </li>
+        
+        {/*
         <li>
           <a
             href="https://www.youtube.com/channel/UCBu5ulO4d-d47lAVybpRTkw"
@@ -93,10 +103,9 @@ const Sidebar = () => {
             <FontAwesomeIcon icon={faYoutube} color="#4d4d4e" />
           </a>
         </li>
-        {/*
+
         <li>
-           
-          !! Remove for now and replace with studio218 !! 
+          !! Remove for now and replace with studio218 Honestly anything is better!! 
 
           <a href="skype:live:bobangajicsm" rel="noreferrer" target="_blank">
             <FontAwesomeIcon icon={faSkype} color="#4d4d4e" />

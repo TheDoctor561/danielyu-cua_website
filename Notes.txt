@@ -14,7 +14,7 @@
 
 3. inside index.css change the color and background to something more fitting
 
-4. Change sidebar icons try to import faIcons to something more unique
+4. Change sidebar icons try to import faIcons to something more unique 
 
 5. Under index.css Remember to change "background" under body to something unique
 
@@ -25,4 +25,12 @@
 	
 	Go to the pukalani villas website as a reference to see how to deal with said changes
 
+8. Remember to put an updated resume in the "public" folder in order to heighten the accuracy 
+	of your searches
 
+9. Remove youtube because you don't have a Youtube presence 
+
+10. In "About" Create more of a compelling about statement really try to sell yourself. 
+	Just copy from others if you can't think of anything. 
+
+11. In "Contact" add a 3d animation usign 3js for the good stuff 
