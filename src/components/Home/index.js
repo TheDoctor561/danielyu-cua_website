@@ -11,22 +11,7 @@ const Home = () => {
 
   const alohaArray = ['A', 'l', 'o', 'h', 'a', ',']
   const nameArray = ['a', 'n', 'i', 'e', 'l', ' ', 'Y', 'u', '-', 'c', 'u', 'a']
-  const jobArray = [
-    'w',
-    'e',
-    'b',
-    ' ',
-    'd',
-    'e',
-    'v',
-    'e',
-    'l',
-    'o',
-    'p',
-    'e',
-    'r',
-    '.',
-  ]
+  const jobArray = ['S','o','f','t','w','a','r','e',' ','E','n','g','i','n','e','e','r']
   useEffect(
     () => {
       let timer1 = setTimeout(() => setLetterClass('text-animate-hover'),  4000);
@@ -60,7 +45,7 @@ const Home = () => {
           <AnimatedLetters
             letterClass={letterClass}
             strArray={jobArray}
-            idx={22}
+            idx={18}
           />
         </h1>
         <h2> FullStack Engineer / Data Analyst / IT Solutions / Designer </h2>

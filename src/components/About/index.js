@@ -7,7 +7,6 @@ import {
   faAws,
   faJsSquare,
   faReact,
-  
 } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
@@ -36,20 +35,26 @@ const About = () => {
             />
           </h1>
           <p>
-            Hi, my name is Daniel I'm a full stack engineer with a knowlege base in IT solutions, Data Analytics, 
-            and Design. I graduated from the University of Maryland College Park with a B.S. in Computer Science, 
-            and am pursuing a M.S. at the University of Maryland Global Campus and am scheduled to graduate in 
-            December of 2023. 
+            Hi, my name is Daniel Yu-cua, I'm a full stack engineer with a knowledge base
+            in IT solutions, Data Analytics, and Web Development. I graduated from the
+            University of Maryland College Park with a B.S. in Computer Science,
+            and am pursuing a M.S. at the University of Maryland Global Campus
+            and am scheduled to graduate in December of 2023.
+
           </p>
           <p align="LEFT">
-            I focus on the bigger picture and work to understand the full scope of 
-            any project that I work on. The reason why I have so 
+            I code my websites using cutting edge frameworks like react and host them using 
+            AWS. I've spent so much time using AWS services that I became a certified AWS Cloud Practitioner. 
+            I also care greatly about data and its ability to provide actionable metrics that lead to meaningful
+            solutions. 
           </p>
           <p>
-            I am consitently improving my skill set day to day and work hard to keep myself updated on the 
-            latest technologies. I've spent the past 5 years of my College Career devoloping high value skills that 
-          </p>
+            I am consistently improving my skills, and work hard to keep myself 
+            updated on the latest technologies. I've spent the past 5 years of 
+            my college and professional career developing high value skills that 
+            will help me develop all-encompassing solutions to real world problems.
 
+          </p>
 
           {/*<Link to="/files/myfile.pdf" target="_blank" download>Download</Link>*/}
           <Link to="/files/resume.pdf" target="_blank" className="flat-button">

@@ -6,11 +6,10 @@ import LogoD from '../../assets/images/logo-d.png'
 import LogoSubtitle from '../../assets/images/logo_sub.png'
 import {
   faLinkedin,
-  faGithub,
-  faYoutube
+  faGithub
 } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faHome, faUser, faChartSimple } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faHome, faUser, faChartSimple, faWrench} from '@fortawesome/free-solid-svg-icons'
 
 // Dev Notes <NavLink> Controls the individual links that go to various pages
 // copy for more sections as they become available to you.
@@ -70,6 +69,14 @@ const Sidebar = () => {
           to="/analytics"
         >
           <FontAwesomeIcon icon={faChartSimple} color="#4d4d4e" />
+        </NavLink>
+
+        <NavLink 
+          activeclassname="active" 
+          className="projects-link" 
+          to="/projects"
+        >
+          <FontAwesomeIcon icon={faWrench} color="#4d4d4e" />
         </NavLink>
       </nav>
 

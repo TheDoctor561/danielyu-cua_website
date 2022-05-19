@@ -3,6 +3,24 @@
   --bg: #262626;
 }
 
+.contact-page {
+  position: relative;
+  .text-zone{
+    position: inherit;
+    h1{
+      margin-left: 10px; 
+
+      position: relative; 
+    }
+    p{
+      position: relative;
+      margin-left: 0px;
+      font-family: 'Coolvetica';
+    }
+  }
+}
+  
+
 
 .contact-form {
   width: 100%;

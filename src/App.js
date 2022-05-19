@@ -5,6 +5,7 @@ import Home from './components/Home';
 import About from './components/About'; 
 import Contact from './components/Contact';
 import Analytics from './components/Analytics';
+import Projects from './components/Projects'; 
 
 // Switch is deprecated in react 18 please use "Routes" from now on
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="about" element={<About />} />
         <Route path="contact" element={<Contact />} />
         <Route path="analytics" element={<Analytics />} />
+        <Route path="projects" element={<Projects />} />
       </Route>
     </Routes>
    </>

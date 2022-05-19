@@ -113,6 +113,12 @@
         content: 'ANALYT';
       }
     }
+
+    a.projects-link {
+      &:after {
+        content: 'PROJ.';
+      }
+    }
     
     a.active {
       svg {

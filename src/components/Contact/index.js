@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters'
@@ -49,8 +48,7 @@ const Contact = () => {
             />
           </h1>
           <p>
-            Yo yo my man I'm wanting to get into the game yo ya feel hommmie
-            hook a brutha up G
+            Please leave your name, company, and return email and I will be sure to respond within 24 hours. 
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
