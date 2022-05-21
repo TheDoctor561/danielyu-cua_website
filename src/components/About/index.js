@@ -38,9 +38,9 @@ const About = () => {
             Hi, my name is Daniel Yu-cua, I'm a full stack engineer with a
             knowledge base in IT solutions, Data Analytics, and Web Development.
             I graduated from the University of Maryland College Park with a B.S.
-            in Computer Science and am pursuing a M.S. at the University of
-            Maryland Global Campus and am scheduled to graduate in December of
-            2023.
+            in Computer Science and am pursuing a M.S. in Data Analytics at the
+            University of Maryland Global Campus and am scheduled to graduate in
+            December of 2023.
           </p>
           <p align="LEFT">
             I code my websites using cutting edge frameworks like react and host

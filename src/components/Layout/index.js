@@ -11,9 +11,9 @@ const Layout = () => {
 
         <Outlet />
         <span className="tags bottom-tags">
-          How to build 
-          <br/>
-          <span className="bottom-tag-html"> a brighter future </span>
+        How to build 
+          <br />
+          <span className="bottom-tag-html">a brighter future</span>
         </span>
       </div>
     </div>

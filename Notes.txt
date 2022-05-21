@@ -10,27 +10,21 @@
 	
 	Stroke for outlined svg should be 4px wide, #000, inner stroke
 
-2. Change the letters that are in the icons 
-
-3. inside index.css change the color and background to something more fitting
-
-4. Change sidebar icons try to import faIcons to something more unique 
-
-5. Under index.css Remember to change "background" under body to something unique
-
 6. Home/Logo/index.js there is a problem loading the animations for gsap useEffect.fromTo 
 	when dealing with the start animations of the outline
+
 7. Site does not work for mobile and needs to be made more efficient with drop down menus 
 	and media changes 
-	
+
 	Go to the pukalani villas website as a reference to see how to deal with said changes
 
 8. Remember to put an updated resume in the "public" folder in order to heighten the accuracy 
 	of your searches
 
-9. Remove youtube because you don't have a Youtube presence 
-
 10. In "About" Create more of a compelling about statement really try to sell yourself. 
 	Just copy from others if you can't think of anything. 
 
-11. In "Contact" add a 3d animation usign 3js for the good stuff 
+11. In "Contact" add a 3d animation using 3js by creating mascott??? 
+	- What kind of mascott do you want? Dog on computer? Cat? 
+
+12. Align headings with text and change contact 

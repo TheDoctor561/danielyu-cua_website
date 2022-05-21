@@ -83,7 +83,7 @@ const Sidebar = () => {
       <ul>
         <li>
           <a
-            href="https://www.linkedin.com/in/daniel-yu-cua-b9599115b/"
+            href="https://www.linkedin.com/in/daniel-yu-cua/"
             target="_blank"
             rel="noreferrer"
           >
