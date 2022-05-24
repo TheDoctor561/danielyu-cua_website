@@ -1,8 +1,5 @@
 import { useEffect, useState } from 'react'
-import {
-  faPython,
-  faTwitter
-} from '@fortawesome/free-brands-svg-icons'
+import { faPython, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -45,7 +42,7 @@ const Analytics = () => {
             <h3>
               {' '}
               <a
-                href="https://www.w3schools.com/"
+                href="https://github.com/TheDoctor561/Hyperparameters"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -54,19 +51,18 @@ const Analytics = () => {
                 <FontAwesomeIcon icon={faArrowAltCircleRight} />
               </a>
             </h3>
-            Hi, my name is Daniel Yu-cua, I'm a full stack engineer with a
-            knowledge base in IT solutions, Data Analytics, and Web Development.
-            I graduated from the University of Maryland College Park with a B.S.
-            in Computer Science and am pursuing a M.S. in Data Analytics at the
-            University of Maryland Global Campus and am scheduled to graduate in
-            December of 2023.
+            Creation of hybrid images using edge detection and image filtering.
+            This project processes images from scratch and utilizes a custom
+            made Gaussian Kernel and Convolution to blur, fade, or sharpen
+            images. The edges of such images can then be extracted and laid atop
+            other images to create "Hybrid images".
           </p>
 
           <p align="LEFT">
             <h3>
               {' '}
               <a
-                href="https://www.w3schools.com/"
+                href="https://github.com/TheDoctor561/twitter_scraper"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -75,51 +71,48 @@ const Analytics = () => {
                 <FontAwesomeIcon icon={faArrowAltCircleRight} />
               </a>
             </h3>
-            I code my websites using cutting edge frameworks like react and host
-            them using AWS. I've spent so much time using AWS services that I
-            became a certified AWS Cloud Practitioner. I also care greatly about
-            data and its ability to provide actionable metrics that lead to
-            meaningful solutions.
+            Utilizing the twitter API to stream and do sentiment analysis on
+            globally streamed tweets using keywords, usernames, and individual
+            posts. The sentiment analyzer uses Meta's machine learning model to
+            predict and score individual tweets based on their wording and
+            composition.
           </p>
 
           <p>
             <h3>
               {' '}
               <a
-                href="https://www.w3schools.com/"
+                href="https://github.com/TheDoctor561/danielyu-cua.github.io/blob/master/Final_Project.ipynb"
                 target="_blank"
                 rel="noreferrer"
               >
                 {' '}
-                Temperature Anomalies <FontAwesomeIcon icon={faTemperature4} />{' '}
+                Temperature Anomalies <FontAwesomeIcon
+                  icon={faTemperature4}
+                />{' '}
                 <FontAwesomeIcon icon={faArrowAltCircleRight} />
               </a>
             </h3>
-            I am consistently improving my skills, and work hard to keep myself
-            updated on the latest technologies. I've spent the past 5 years of
-            my college and professional career developing high value skills that
-            will help me develop all-encompassing solutions to real world
-            problems.
+            Linear regression analysis on global temperature anomalies
+            correlated with fossil fuel cosumption over the past century. Using
+            said data to predict the "point of no return" where humanity must
+            cease all fosil fuel consumption.
           </p>
 
           <p>
             <h3>
               {' '}
-              <a
-                href="https://www.w3schools.com/"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href="/files/EarthQuakes.pdf" target="_blank" rel="noreferrer">
                 {' '}
-                Earthquake Prediciton <FontAwesomeIcon icon={faHouseChimneyCrack}/> {' '} 
+                Earthquake Prediciton{' '}
+                <FontAwesomeIcon icon={faHouseChimneyCrack} />{' '}
                 <FontAwesomeIcon icon={faArrowAltCircleRight} />
               </a>
             </h3>
-            I am consistently improving my skills, and work hard to keep myself
-            updated on the latest technologies. I've spent the past 5 years of
-            my college and professional career developing high value skills that
-            will help me develop all-encompassing solutions to real world
-            problems.
+            A report on global earthquake anomalies. IBM Cognos used to filter
+            and sort the earthquakes to identify regions of high risk and
+            frequency. To provide suggestions to update housing policy or
+            building code to mitigate damages based on these high-risk areas.
           </p>
 
           {/*<Link to="/files/resume.pdf" target="_blank" className="flat-button">

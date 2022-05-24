@@ -1,7 +1,4 @@
 import { useEffect, useState } from 'react'
-import {
-  faTwitter,
-} from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -10,7 +7,8 @@ import  pukalani from '../../assets/images/pukalani_1.jpg'
 import './index.scss'
 import {
   faArrowAltCircleRight,
-  faClone
+  faCode,
+  faHouse
 } from '@fortawesome/free-solid-svg-icons'
 
 const Projects = () => {
@@ -44,36 +42,30 @@ const Projects = () => {
                 rel="noreferrer"
               >
                 {' '}
-                Pukalani Villas <FontAwesomeIcon icon={faClone} />{' '}
+                Pukalani Villas <FontAwesomeIcon icon={faHouse} />{' '}
                 <FontAwesomeIcon icon={faArrowAltCircleRight} />
               </a>
             </h3>
-            Hi, my name is Daniel Yu-cua, I'm a full stack engineer with a
-            knowledge base in IT solutions, Data Analytics, and Web Development.
-            I graduated from the University of Maryland College Park with a B.S.
-            in Computer Science and am pursuing a M.S. in Data Analytics at the
-            University of Maryland Global Campus and am scheduled to graduate in
-            December of 2023.
+            Pukalani Villas is a housing projects located in the hills of Oahu, Hawaii. 
+            The project consists of a 6-house villa with each ranging in price of 
+            2 - 2.8 million dollars. 
           </p>
 
           <p align="LEFT">
             <h3>
               {' '}
               <a
-                href="https://218studio.com/"
+                href="https://www.218studio.com/"
                 target="_blank"
                 rel="noreferrer"
               >
                 {' '}
-                218 Studio <FontAwesomeIcon icon={faTwitter} />{' '}
+                218 Studio <FontAwesomeIcon icon={faCode} />{' '}
                 <FontAwesomeIcon icon={faArrowAltCircleRight} />
               </a>
             </h3>
-            I code my websites using cutting edge frameworks like react and host
-            them using AWS. I've spent so much time using AWS services that I
-            became a certified AWS Cloud Practitioner. I also care greatly about
-            data and its ability to provide actionable metrics that lead to
-            meaningful solutions.
+            218 Studio is a full stack website that allows users to upload songs
+            and visualize music through the use of a vaporwave inspired visualizer. 
           </p>
 
          
