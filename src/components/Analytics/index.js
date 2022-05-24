@@ -1,12 +1,7 @@
 import { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
 import {
   faPython,
-  faCss3,
-  faGitAlt,
-  faAws,
-  faJsSquare,
-  faReact,
+  faTwitter
 } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
@@ -18,9 +13,11 @@ import {
   faDiagramProject,
   faChartLine,
   faTable,
-  faArrowAltCircleRight
+  faArrowAltCircleRight,
+  faClone,
+  faHouseChimneyCrack,
+  faTemperature4,
 } from '@fortawesome/free-solid-svg-icons'
-import LogoTitle from '../../assets/images/logo-d.png'
 
 const Analytics = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -43,9 +40,20 @@ const Analytics = () => {
               idx={15}
             />
           </h1>
-          
+
           <p>
-          <h3> <a href="https://www.w3schools.com/" target="_blank" rel="noreferrer"> Hybrid Images <FontAwesomeIcon icon={faArrowAltCircleRight}/></a></h3>
+            <h3>
+              {' '}
+              <a
+                href="https://www.w3schools.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {' '}
+                Hybrid Images <FontAwesomeIcon icon={faClone} />{' '}
+                <FontAwesomeIcon icon={faArrowAltCircleRight} />
+              </a>
+            </h3>
             Hi, my name is Daniel Yu-cua, I'm a full stack engineer with a
             knowledge base in IT solutions, Data Analytics, and Web Development.
             I graduated from the University of Maryland College Park with a B.S.
@@ -53,27 +61,60 @@ const Analytics = () => {
             University of Maryland Global Campus and am scheduled to graduate in
             December of 2023.
           </p>
-          
+
           <p align="LEFT">
-          <h3> <a href="https://www.w3schools.com/" target="_blank" rel="noreferrer"> Twitter Scraper <FontAwesomeIcon icon={faArrowAltCircleRight}/></a></h3>
+            <h3>
+              {' '}
+              <a
+                href="https://www.w3schools.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {' '}
+                Twitter Scraper <FontAwesomeIcon icon={faTwitter} />{' '}
+                <FontAwesomeIcon icon={faArrowAltCircleRight} />
+              </a>
+            </h3>
             I code my websites using cutting edge frameworks like react and host
             them using AWS. I've spent so much time using AWS services that I
             became a certified AWS Cloud Practitioner. I also care greatly about
             data and its ability to provide actionable metrics that lead to
             meaningful solutions.
           </p>
-          
+
           <p>
-          <h3> <a href="https://www.w3schools.com/" target="_blank" rel="noreferrer"> Temperature Anomalies <FontAwesomeIcon icon={faArrowAltCircleRight}/></a></h3>
+            <h3>
+              {' '}
+              <a
+                href="https://www.w3schools.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {' '}
+                Temperature Anomalies <FontAwesomeIcon icon={faTemperature4} />{' '}
+                <FontAwesomeIcon icon={faArrowAltCircleRight} />
+              </a>
+            </h3>
             I am consistently improving my skills, and work hard to keep myself
             updated on the latest technologies. I've spent the past 5 years of
             my college and professional career developing high value skills that
             will help me develop all-encompassing solutions to real world
             problems.
           </p>
-          
+
           <p>
-          <h3> <a href="https://www.w3schools.com/" target="_blank" rel="noreferrer"> Earthquake Prediciton <FontAwesomeIcon icon={faArrowAltCircleRight}/></a></h3>
+            <h3>
+              {' '}
+              <a
+                href="https://www.w3schools.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {' '}
+                Earthquake Prediciton <FontAwesomeIcon icon={faHouseChimneyCrack}/> {' '} 
+                <FontAwesomeIcon icon={faArrowAltCircleRight} />
+              </a>
+            </h3>
             I am consistently improving my skills, and work hard to keep myself
             updated on the latest technologies. I've spent the past 5 years of
             my college and professional career developing high value skills that

@@ -1,0 +1,95 @@
+
+.projects-page {
+  position: relative;
+  .text-zone{
+    position: inherit;
+    h1{
+      margin-left: 10px; 
+      position: relative; 
+    }
+    h3{
+      font-size: 15px;
+      color: var(--accent);
+      text-decoration: none;
+      a{
+        text-decoration: none;
+        color: var(--accent);
+        &:hover {
+          color: white; 
+          
+          -webkit-transition: all 0.3s ease-out;
+          transition: all 0.3s ease-out;
+        }
+      }
+      &:hover{
+        transform: translateY(-2px);
+        -webkit-transition: all 0.3s ease-out;
+        transition: all 0.3s ease-out;
+      }
+      
+
+    }
+    
+    p{
+      font-family: 'Coolvetica';
+      position: relative;
+      margin-left: 0px;
+    }
+  }
+  
+  .image-div {
+    width: 50%;
+    height: 100%;
+    top: 0;
+    padding-top: 18%;
+    margin-left: 0;
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+  }
+  img {
+    max-width: 50vh;
+  }
+    
+  .parent {
+    position: relative;
+    top: -150px;
+    left: 0;
+  }
+  .image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    border: 1px solid #000000;
+  }
+  .image2 {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border: 1px solid #000000;
+  }
+  
+
+  p {
+    font-size: 13px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 300;
+    max-width: fit-content;
+    animation: pulse 1s;
+    &:nth-of-type(1) {
+      animation-delay: 1.1s;
+    }
+    &:nth-of-type(2) {
+      animation-delay: 1.2s;
+    }
+    &:nth-of-type(3) {
+      animation-delay: 1.3s;
+    }
+    &:nth-of-type(4) {
+      animation-delay: 1.4s;
+    }
+  }
+}
+
+
