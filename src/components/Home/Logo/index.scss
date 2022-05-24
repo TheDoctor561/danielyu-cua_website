@@ -28,6 +28,20 @@
     opacity: 0;
     transform: rotateZ(30deg) !important;
     z-index: 1;
+    -webkit-animation: 3.5s ease 0s normal forwards 1 fadein;
+    animation: 3.5s ease 0s normal forwards 1 fadein;
+  }
+
+  @keyframes fadein{
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+  }
+
+  @-webkit-keyframes fadein{
+      0% { opacity:0; }
+      66% { opacity:0; }
+      100% { opacity:1; }
   }
 }
 
