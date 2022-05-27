@@ -42,7 +42,7 @@ const Projects = () => {
                 rel="noreferrer"
               >
                 {' '}
-                Pukalani Villas <FontAwesomeIcon icon={faHouse} />{' '}
+                Pukalani Villas {' '}
                 <FontAwesomeIcon icon={faArrowAltCircleRight} />
               </a>
             </h3>
@@ -60,7 +60,7 @@ const Projects = () => {
                 rel="noreferrer"
               >
                 {' '}
-                218 Studio <FontAwesomeIcon icon={faCode} />{' '}
+                218 Studio {' '}
                 <FontAwesomeIcon icon={faArrowAltCircleRight} />
               </a>
             </h3>
