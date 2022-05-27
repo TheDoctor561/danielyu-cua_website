@@ -45,6 +45,9 @@ const Home = () => {
           
         </h1>
         <h2> FullStack Engineer / Data Analyst / IT Solutions / Designer </h2>
+        <a href= {pdf} target="_blank" rel="noreferrer">
+          resume
+        </a>
         <Link to= {pdf} target="_blank" className="flat-button">
             {' '}
             VIEW RESUME
