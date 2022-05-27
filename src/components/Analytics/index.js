@@ -3,7 +3,6 @@ import { faGithub, faPython} from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import earthquake from "../../assets/files/EarthQuakes.pdf"
 import './index.scss'
 import {
   faBarsProgress,
@@ -11,8 +10,7 @@ import {
   faDiagramProject,
   faChartLine,
   faTable,
-  faArrowAltCircleRight,
-  faHouseChimneyCrack
+  faArrowAltCircleRight
 } from '@fortawesome/free-solid-svg-icons'
 
 const Analytics = () => {
@@ -47,7 +45,6 @@ const Analytics = () => {
               >
                 {' '}
                 Hybrid Images <FontAwesomeIcon icon={faGithub}/>{' '}
-                <FontAwesomeIcon icon={faArrowAltCircleRight} />
               </a>
             </h3>
             Creation of hybrid images using edge detection and image filtering.
@@ -67,7 +64,6 @@ const Analytics = () => {
               >
                 {' '}
                 Twitter Scraper <FontAwesomeIcon icon={faGithub} />{' '}
-                <FontAwesomeIcon icon={faArrowAltCircleRight} />
               </a>
             </h3>
             Utilizing the twitter API to stream and do sentiment analysis on
@@ -89,7 +85,6 @@ const Analytics = () => {
                 Temperature Anomalies <FontAwesomeIcon
                   icon={faGithub}
                 />{' '}
-                <FontAwesomeIcon icon={faArrowAltCircleRight} />
               </a>
             </h3>
             Linear regression analysis on global temperature anomalies
@@ -101,11 +96,10 @@ const Analytics = () => {
           <p>
             <h3>
               {' '}
-              <a href= {earthquake} target="_blank" rel="noreferrer">
+              <a href= "https://github.com/TheDoctor561/danielyu-cua_website/blob/master/src/assets/files/EarthQuakes.pdf" target="_blank" rel="noreferrer">
                 {' '}
                 Earthquake Prediciton{' '}
-                <FontAwesomeIcon icon={faHouseChimneyCrack} />{' '}
-                <FontAwesomeIcon icon={faArrowAltCircleRight} />
+                <FontAwesomeIcon icon={faGithub}/>{' '}
               </a>
             </h3>
             A report on global earthquake anomalies. IBM Cognos used to filter

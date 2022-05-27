@@ -1,15 +1,10 @@
 import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import studio218 from '../../assets/images/218_screen.png'
 import  pukalani from '../../assets/images/pukalani_1.jpg'
 import './index.scss'
-import {
-  faArrowAltCircleRight,
-  faCode,
-  faHouse
-} from '@fortawesome/free-solid-svg-icons'
+
 
 const Projects = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -43,7 +38,6 @@ const Projects = () => {
               >
                 {' '}
                 Pukalani Villas {' '}
-                <FontAwesomeIcon icon={faArrowAltCircleRight} />
               </a>
             </h3>
             Pukalani Villas is a housing projects located in the hills of Oahu, Hawaii. 
@@ -61,7 +55,6 @@ const Projects = () => {
               >
                 {' '}
                 218 Studio {' '}
-                <FontAwesomeIcon icon={faArrowAltCircleRight} />
               </a>
             </h3>
             218 Studio is a full stack website that allows users to upload songs

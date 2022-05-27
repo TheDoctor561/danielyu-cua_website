@@ -1,9 +1,7 @@
 import { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import LogoTitle from '../../assets/images/logo-d.png'
-import pdf from '../../assets/files/resume.pdf'
 import './index.scss'
 import Logo from './Logo'
 
@@ -45,13 +43,9 @@ const Home = () => {
           
         </h1>
         <h2> FullStack Engineer / Data Analyst / IT Solutions / Designer </h2>
-        <a href= {pdf} target="_blank" rel="noreferrer">
-          resume
+        <a href= 'https://github.com/TheDoctor561/danielyu-cua_website/blob/master/src/assets/files/resume.pdf' target="_blank" rel="noreferrer" className='flat-button'>
+          VIEW RESUME
         </a>
-        <Link to= '/resume.pdf' target="_blank" className="flat-button">
-            {' '}
-            VIEW RESUME
-          </Link>
       </div>
       <Logo />
     </div>

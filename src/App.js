@@ -5,6 +5,7 @@ import Contact from './components/Contact'
 import Layout from './components/Layout'
 import Analytics from './components/Analytics'
 import Projects from './components/Projects'
+
 import './App.scss'
 
 function App() {
