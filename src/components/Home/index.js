@@ -48,7 +48,7 @@ const Home = () => {
         <a href= {pdf} target="_blank" rel="noreferrer">
           resume
         </a>
-        <Link to= {pdf} target="_blank" className="flat-button">
+        <Link to= '/resume.pdf' target="_blank" className="flat-button">
             {' '}
             VIEW RESUME
           </Link>
