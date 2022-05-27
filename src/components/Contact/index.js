@@ -48,7 +48,7 @@ const Contact = () => {
             />
           </h1>
           <p>
-            Please leave your name, company, and return email and I will be sure to respond within 24 hours. 
+            I will be sure to respond within 24 hours. 
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>

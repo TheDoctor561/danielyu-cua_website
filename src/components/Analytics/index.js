@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react'
-import { faPython, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faPython} from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import earthquake from "../../assets/files/EarthQuakes.pdf"
 import './index.scss'
 import {
   faBarsProgress,
@@ -11,9 +12,7 @@ import {
   faChartLine,
   faTable,
   faArrowAltCircleRight,
-  faClone,
-  faHouseChimneyCrack,
-  faTemperature4,
+  faHouseChimneyCrack
 } from '@fortawesome/free-solid-svg-icons'
 
 const Analytics = () => {
@@ -47,7 +46,7 @@ const Analytics = () => {
                 rel="noreferrer"
               >
                 {' '}
-                Hybrid Images <FontAwesomeIcon icon={faClone} />{' '}
+                Hybrid Images <FontAwesomeIcon icon={faGithub}/>{' '}
                 <FontAwesomeIcon icon={faArrowAltCircleRight} />
               </a>
             </h3>
@@ -67,7 +66,7 @@ const Analytics = () => {
                 rel="noreferrer"
               >
                 {' '}
-                Twitter Scraper <FontAwesomeIcon icon={faTwitter} />{' '}
+                Twitter Scraper <FontAwesomeIcon icon={faGithub} />{' '}
                 <FontAwesomeIcon icon={faArrowAltCircleRight} />
               </a>
             </h3>
@@ -88,7 +87,7 @@ const Analytics = () => {
               >
                 {' '}
                 Temperature Anomalies <FontAwesomeIcon
-                  icon={faTemperature4}
+                  icon={faGithub}
                 />{' '}
                 <FontAwesomeIcon icon={faArrowAltCircleRight} />
               </a>
@@ -102,7 +101,7 @@ const Analytics = () => {
           <p>
             <h3>
               {' '}
-              <a href="/files/EarthQuakes.pdf" target="_blank" rel="noreferrer">
+              <a href= {earthquake} target="_blank" rel="noreferrer">
                 {' '}
                 Earthquake Prediciton{' '}
                 <FontAwesomeIcon icon={faHouseChimneyCrack} />{' '}

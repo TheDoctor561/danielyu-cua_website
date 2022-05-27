@@ -12,6 +12,7 @@ import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './index.scss'
+import pdf from "../../assets/files/resume.pdf"
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -35,19 +36,13 @@ const About = () => {
             />
           </h1>
           <p>
-            Hi, my name is Daniel Yu-cua, I'm a full stack engineer with a
-            knowledge base in IT solutions, Data Analytics, and Web Development.
             I graduated from the University of Maryland College Park with a B.S.
             in Computer Science and am pursuing a M.S. in Data Analytics at the
-            University of Maryland Global Campus and am scheduled to graduate in
-            December of 2023.
+            University of Maryland Global Campus.
           </p>
           <p align="LEFT">
             I code my websites using cutting edge frameworks like react and host
-            them using AWS. I've spent so much time using AWS services that I
-            became a certified AWS Cloud Practitioner. I also care greatly about
-            data and its ability to provide actionable metrics that lead to
-            meaningful solutions.
+            them using AWS. I am a certified AWS Cloud Practitioner.
           </p>
           <p>
             I am consistently improving my skills, and work hard to keep myself
@@ -58,9 +53,9 @@ const About = () => {
           </p>
 
           {/*<Link to="/files/myfile.pdf" target="_blank" download>Download</Link>*/}
-          <Link to="/files/resume.pdf" target="_blank" className="flat-button">
+          <Link to= {pdf} target="_blank" className="flat-button">
             {' '}
-            DOWNLOAD RESUME
+            VIEW RESUME
           </Link>
         </div>
 
