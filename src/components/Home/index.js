@@ -4,8 +4,6 @@ import AnimatedLetters from '../AnimatedLetters'
 import LogoTitle from '../../assets/images/logo-d.png'
 import './index.scss'
 import Logo from './Logo'
-import pdf from "../../assets/files/resume.pdf"
-import { Link } from 'react-router-dom'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -45,14 +43,9 @@ const Home = () => {
           
         </h1>
         <h2> FullStack Engineer / Data Analyst / IT Solutions / Designer </h2>
-        {/* <a href= 'https://github.com/TheDoctor561/danielyu-cua_website/blob/master/src/assets/files/resume.pdf' target="_blank" rel="noreferrer" className='flat-button'>
+        <a href= 'https://github.com/TheDoctor561/danielyu-cua_website/blob/master/src/assets/files/resume.pdf' target="_blank" rel="noreferrer" className='flat-button'>
           VIEW RESUME
-        </a>*/}
-        
-        <Link to= {pdf} target="_blank" className="flat-button">
-            {' '}
-            VIEW RESUME
-        </Link>
+        </a>
       </div>
       <Logo />
     </div>
