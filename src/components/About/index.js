@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 import {
   faPython,
   faCss3,
@@ -11,6 +12,7 @@ import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './index.scss'
+import pdf from "../../assets/files/resume.pdf"
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -51,9 +53,10 @@ const About = () => {
           </p>
 
           {/*<Link to="/files/myfile.pdf" target="_blank" download>Download</Link>*/}
-          <a href= 'https://github.com/TheDoctor561/danielyu-cua_website/blob/master/src/assets/files/resume.pdf' target="_blank" rel="noreferrer" className='flat-button'>
+          <Link to= {pdf} target="_blank" className="flat-button">
+            {' '}
             VIEW RESUME
-          </a>
+          </Link>
         </div>
 
         <div className="stage-cube-cont">
